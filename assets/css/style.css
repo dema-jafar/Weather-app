@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherCard {
+    max-width: 400px;
+    padding: 30px;
+    background: linear-gradient(133deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 0.87) 68%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weatherCard .searchSection input {
+    padding: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.weatherCard .searchSection button {
+    margin: 5px;
+    padding: 10px;
+    border-style: none;
+    background-color:white;
+    border-radius:50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.weatherCard .weatherDetails {
+    margin-top: 50px;
+    font-size: 30px;
+    color: beige;
+}
+
+.weatherCard .moreDetails {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+}
+
+.weatherCard .message {
+    color: brown;
+    font-size: 20px;
+    margin-top: 20px;
+}
